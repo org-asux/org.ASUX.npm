@@ -1,10 +1,15 @@
 {
-    "name": "@asux.org/org.asux.npm",
-    "version": "1.0.6",
+    "name": "@asux.org/cli-npm",
+    "version": "1.0.0",
     "description": "Easy to install & use .. NPM-based user-interface .. to all the functionality from ASUX.org FOSS.  see https://github.com/org-asux/org-ASUX.github.io/wiki",
     "license": "BSD-3-Clause",
     "author": "ToSarma@gmail.com",
     "main": "bin/asux_module.js",
+    "private": false,
+    "publishConfig": {
+            "access": "public",
+            "tag": "latest"
+        },
     "engines": {
         "node": ">=10.2.2"
     },
