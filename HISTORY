@@ -1,36 +1,45 @@
 
 
-1.0.6 / 2020-03-08
+1.0.0 / 2020-03-12
+==================
+
+ - 1.0.6 was a great success on New Computer.  Missing '/' file-separator for name of uninstall script.
+ - And .. am a bad citizen of NPMJS.org.  Tried to unpublish and rename my Project on NPMJS,org.  Heck, Github would let me. But, not here.
+ - If you are wondering what the heck is the numbering.. yeah!  I tried to wipe out history and start from scratch.
+
+0.0.6 / 2020-03-08
 ==================
 
  - STILL Wet behind the ears with NPM Repo & Wet behind the ears re: UMD. New Computer showed 80% success.  missing './' prefix to running asus.js filename
 
-1.0.5 / 2020-03-08
+0.0.5 / 2020-03-08
 ==================
 
  - STILL Wet behind the ears with NPM Repo & Wet behind the ears re: UMD. Locally tested.  Now to check on a totally new computer.
 
-1.0.4 / 2020-03-08
+0.0.4 / 2020-03-08
 ==================
 
  - STILL Wet behind the ears with NPM Repo & Wet behind the ears re: UMD. Debugging typos in npm-packages is a throwback to debugging EJB.  Endless deploys!
 
-1.0.3 / 2020-03-08
+0.0.3 / 2020-03-08
 ==================
 
  - STILL Wet behind the ears with NPM Repo & Wet behind the ears re: UMD. Turning off template UMD code that I incorporated into the 'asux' script
 
-1.0.2 / 2020-03-08
+0.0.2 / 2020-03-08
 ==================
 
  - STILL Wet behind the ears with NPM Repo.  No excuse for not figuring out that 'mkdir' UNIX command needed a '-p' flag (within pre-install script).  Got rid of this pre-install, as it made no sense if package installed '-g' globally.
 
-1.0.1 / 2020-03-08
+0.0.1 / 2020-03-08
 ==================
 
  - STILL Wet behind the ears with NPM Repo.  But I think I am fixing 'script' and 'bin' settings within package.json
 
-1.0.0 / 2020-03-08
+0.0.0 / 2020-03-08
 ==================
 
- - Wet behind the ears with NPM Repo
+ - Wet behind the ears with NPM Repo. Starting life as '@org.asux/org-asux-npm' project, without much thought to project names.
+
+[EoF]
