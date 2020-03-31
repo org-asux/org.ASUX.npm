@@ -60,7 +60,7 @@ function( _newWorkingDir, _command, _cmdArgs, _quietlyRunCmd, _bVerbose2, _bExit
 const ORGNAME="org-asux";
 const PROJNAME="org.ASUX";
 const ACTUALSCRIPT="asux.js";
-process.env.ORGASUXHOME=os.homedir() + "/.asux.org";
+process.env.ORGASUXHOME=os.homedir() + "/.org.asux";
 
 //-------------------------------------------------------
 try {
