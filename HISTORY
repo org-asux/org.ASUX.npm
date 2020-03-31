@@ -1,11 +1,19 @@
 
 
+1.1.0 / 2020-03-12
+==================
+
+ - installed folder corrected from ~/.asux.org to ~/.org.asux
+ - changed (rationalized) ALL script file-names
+ - Got rid of unnecessary scripts
+ - un-doing the commit on Mar 30, 2020.  Still not 100% sure of what I am doing with npm.
+
 1.0.0 / 2020-03-12
 ==================
 
- - 1.0.6 was a great success on New Computer.  Missing '/' file-separator for name of uninstall script.
- - And .. am a bad citizen of NPMJS.org.  Tried to unpublish and rename my Project on NPMJS,org.  Heck, Github would let me. But, not here.
- - If you are wondering what the heck is the numbering.. yeah!  I tried to wipe out history and start from scratch.
+ - 0.0.6 was a great success on New Computer.  Missing '/' file-separator for name of uninstall script.
+ - And .. am a bad citizen of NPMJS.org.  Tried to unpublish and rename my Project on NPMJS,org.  Heck, Github would let me. But, not NPMJS.org.
+ - If you are wondering what the heck is going on with the numbering.. yeah!  I tried to wipe out history and start from scratch.
 
 0.0.6 / 2020-03-08
 ==================
