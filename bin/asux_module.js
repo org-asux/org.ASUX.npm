@@ -93,7 +93,7 @@
 
 	// UMD: Only attach properties to the exports object to define the module's properties.
 	/**
-	 * Pass one or more arguments just as you'd pass command line arguments to the bin/asux cmd-line tool
+	 * Pass one or more arguments just as you'd pass command line arguments ~/.org.asux/
 	 */
     exports.action = function ( _argv ) {
 
@@ -106,7 +106,7 @@
 		const ORGNAME="org-asux";
 		const PROJNAME="org.ASUX";
 		const ACTUALSCRIPT="asux.js";
-		process.env.ORGASUXHOME=os.homedir() + "/.asux.org";
+		process.env.ORGASUXHOME=os.homedir() + "/.org.asux";
 
 		// in contrast with bin/asux this file (bin/asux_module.js) is a simple wrapper to invoke the asux.js script in process.env.ORGASUXHOME
 
