@@ -1,5 +1,10 @@
 
 
+1.3.0 / 2020-03-31
+==================
+
+ - Got rid of postinstall commands. still struggling with NPM.  Doesn't post-install mean, nodev10.2 has ALREADY installed dependencies?  Apparently NOT!
+
 1.2.0 / 2020-03-31
 ==================
 

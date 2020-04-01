@@ -1,6 +1,6 @@
 {
     "name": "@asux.org/cli-npm",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "description": "Easy to install & use .. NPM-based user-interface .. to all the functionality from ASUX.org FOSS.  see https://github.com/org-asux/org-ASUX.github.io/wiki",
     "license": "BSD-3-Clause",
     "author": "ToSarma@gmail.com",
@@ -22,7 +22,7 @@
 
     "scripts": {
         "preinstall": "",
-        "postinstall": "./bin/asux-npm-install && echo Welcome to the https://ASUX.org project.",
+        "postinstall": "echo Welcome to the https://ASUX.org project.",
         "preuninstall": "./bin/asux-npm-uninstall.js"
     },
     "dependencies": {
