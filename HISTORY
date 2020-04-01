@@ -1,5 +1,20 @@
 
 
+
+1.6.0 / 2020-03-31
+==================
+
+ - Ok. Finally install + uninstall has NO errors.  Package.json is almost empty!  Clearly package.json is either incoherent or very limiting to a Java guy.
+ - But, dependencies still not being installed.
+ - Trying something wacky in postinstall.
+
+1.5.0 / 2020-03-31
+==================
+
+ - Ok. Finally install of package does Not error out.  Package.json is almost empty!  Clearly package.json is either incoherent or very limiting to a Java guy.
+ - uninstall fails spectacularly.  fs.rmdirSync() with {"recursive": true} does NOT work.
+ - added a simple DIY method from online.  Let's see if it works.
+
 1.4.0 / 2020-03-31
 ==================
 
