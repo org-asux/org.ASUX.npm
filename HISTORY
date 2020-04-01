@@ -1,6 +1,11 @@
 
 
-1.1.0 / 2020-03-12
+1.2.0 / 2020-03-31
+==================
+
+ - Got rid of start and boot scripts. still struggling with NPM
+
+1.1.0 / 2020-03-31
 ==================
 
  - installed folder corrected from ~/.asux.org to ~/.org.asux
