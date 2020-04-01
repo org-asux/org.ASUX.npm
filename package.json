@@ -21,8 +21,6 @@
     },
 
     "scripts": {
-        "start": "npm run boot",
-        "boot": "node $npm_package_main",
         "preinstall": "",
         "postinstall": "./bin/asux-npm-install && echo Welcome to the https://ASUX.org project.",
         "preuninstall": "./bin/asux-npm-uninstall.js"
