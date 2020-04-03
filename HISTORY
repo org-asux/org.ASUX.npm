@@ -1,6 +1,19 @@
 
 
 
+1.8.0 / 2020-04-02
+==================
+
+ - In prior version, I unexplainably removed "bin", and now .. have to put it back.
+ - confirmed that npm is NOT installing dependencies, as only commander@2.20.0 is installed (as I explicitly do that in post-install) and 'chalk' is NOT installed still.
+ - Fixed url for Bugs.  Added email, but really a pointer to Google-Groups.
+
+1.7.0 / 2020-04-02
+==================
+
+ - Trying to slash/simplify package.json, so it will install dependencies.
+ - 1.6.0 was uninstalling cleanly.  Hope i've not broken it.
+
 1.6.0 / 2020-03-31
 ==================
 
