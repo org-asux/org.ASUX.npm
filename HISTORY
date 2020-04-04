@@ -1,6 +1,12 @@
 
 
 
+1.9.0 / 2020-04-03
+==================
+
+ - auto-created folder renamed to ~/.org.ASUX (capitals)
+ - bin/asux-npm-install renamed to have the '.js' suffix.
+
 1.8.0 / 2020-04-02
 ==================
 
