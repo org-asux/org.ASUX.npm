@@ -33,11 +33,17 @@
         factory((root.commonJsStrict = {}), root.os);
 	}
 
-}(typeof self !== 'undefined' ? self : this, function (exports, b) {
+}(typeof self !== 'undefined' ? self : this, function (exports, os) {
 
 	// now that you have "required" 'os'/'path' above .. 
 	// .. Use them in some fashion, below.
 
+	//============================================================================
+	//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	//============================================================================
+	//============================================================================
+	//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	//============================================================================
 	//============================================================================
 	//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 	//============================================================================
@@ -93,6 +99,18 @@
 
 	// UMD: Only attach properties to the exports object to define the module's properties.
 	/**
+	 * <p>Pass in a JSON, representing a command-line (avoiding the hassle of command line arguments and quoting).</p>
+	 * <p> See example JSON at https://github.com/org-asux/org-ASUX.github.io/wiki/100%25-JavaScript-&-Node.JS-Interface-to-ASUX-commands</p>
+	 */
+    // exports.action = function ( _json ) {
+	// }
+
+	//============================================================================
+	//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	//============================================================================
+
+	// UMD: Only attach properties to the exports object to define the module's properties.
+	/**
 	 * Pass one or more arguments just as you'd pass command line arguments ~/.org.ASUX/
 	 */
     exports.action = function ( _argv ) {
@@ -100,15 +118,16 @@
 		//======================================
 		//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 		//======================================
-		var os = require('os');     // https://nodejs.org/api/os.html
+		// var os = require('os');     // https://nodejs.org/api/os.html
+		// Above is NO longer ALLOWED.  The variable 'os' is passed in as argument .. in line # 36 above
 
-		// const INITIAL_CWD = process.cwd(); // just in case I mistakenly process.chdir() somewhere below.
 		const ORGNAME="org-asux";
 		const PROJNAME="org.ASUX";
 		const ACTUALSCRIPT="asux.js";
 		process.env.ORGASUXHOME=os.homedir() + "/.org.ASUX";
+		const INITIAL_CWD = process.cwd(); // just in case I mistakenly process.chdir() somewhere below.
 
-		// in contrast with bin/asux this file (bin/asux_module.js) is a simple wrapper to invoke the asux.js script in process.env.ORGASUXHOME
+		// in contrast with ${ORGASUXHOME}/bin/asux this file (bin/asux_module.js) is a simple wrapper to invoke the asux.js script in process.env.ORGASUXHOME
 
 		//------------------------------------------------
 		// if everything is ok.. let's run the commands..
@@ -125,6 +144,12 @@
 			process.exit(99);
 		}
 
+		//============================================================================
+		//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+		//============================================================================
+		//============================================================================
+		//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+		//============================================================================
 		//============================================================================
 		//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 		//============================================================================
