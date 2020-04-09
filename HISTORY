@@ -1,6 +1,13 @@
 
 
 
+1.10.0 / 2020-04-03
+==================
+
+ - Put back the missing 'main: ..' element in package.json;  This allows people to require('@asux.org/cli-npm');
+ - Gave up on auto-installing dependencies globally.  So, removing the command for 'npm install -g commander'
+ - Fixing bugs in asux_module.js, towards the GOAL of a true JS-based API for ASUX
+
 1.9.0 / 2020-04-03
 ==================
 
